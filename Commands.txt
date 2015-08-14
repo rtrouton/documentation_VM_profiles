@@ -1,0 +1,6 @@
+All profiles created with mcxToProfile: https://github.com/timsutton/mcxToProfile
+
+./mcxToProfile.py --plist /path/to/com.apple.finder.plist --identifier DocumentationVMFinderPrefs --manage Once
+./mcxToProfile.py --plist /path/to/com.apple.sidebarlists.plist --identifier DocumentationVMSidebarPrefs --manage Once
+./mcxToProfile.py --plist /path/to/com.apple.loginwindow.plist --identifier DocumentationVMUserLoginwindowPrefs --manage Once
+./mcxToProfile.py --plist /path/to/com.apple.security.plist --identifier DisableGatekeeperAutomaticReenablement

@@ -1,2 +1,2 @@
-# documentation_VM_profiles
-These are management profiles I use when creating VMs for documentation purposes.
+# documentation VM scripts
+These are scripts I use when creating VMs for documentation purposes.

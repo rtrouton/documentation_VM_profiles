@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.apple.sidebarlists</key>
+				<dict>
+					<key>Set-Once</key>
+					<array>
+						<dict>
+							<key>mcx_data_timestamp</key>
+							<date>2015-07-03T19:09:23Z</date>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>networkbrowser</key>
+								<dict>
+									<key>Controller</key>
+									<string>CustomListItems</string>
+									<key>CustomListItems</key>
+									<array/>
+									<key>CustomListProperties</key>
+									<dict>
+										<key>com.apple.NetworkBrowser.backToMyMacEnabled</key>
+										<false/>
+										<key>com.apple.NetworkBrowser.bonjourEnabled</key>
+										<false/>
+										<key>com.apple.NetworkBrowser.connectedEnabled</key>
+										<true/>
+									</dict>
+								</dict>
+								<key>systemitems</key>
+								<dict>
+									<key>ShowEjectables</key>
+									<true/>
+									<key>ShowHardDisks</key>
+									<true/>
+									<key>ShowRemovable</key>
+									<true/>
+									<key>ShowServers</key>
+									<true/>
+								</dict>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>MCXToProfile.65b7e372-7d24-4882-838e-5075e0ad9d4f.alacarte.customsettings.b9c33e5c-bc0c-4421-9467-ca87f9f3ee32</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>b9c33e5c-bc0c-4421-9467-ca87f9f3ee32</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Included custom settings:
+com.apple.sidebarlists
+
+Git revision: 5aefeaf7eb</string>
+	<key>PayloadDisplayName</key>
+	<string>MCXToProfile: com.apple.sidebarlists</string>
+	<key>PayloadIdentifier</key>
+	<string>DocumentationVMSidebarPrefs</string>
+	<key>PayloadOrganization</key>
+	<string></string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>65b7e372-7d24-4882-838e-5075e0ad9d4f</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

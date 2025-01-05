@@ -3,15 +3,15 @@
 <plist version="1">
   <dict>
     <key>PayloadUUID</key>
-    <string>a1f5d513-82ae-4b5a-a739-64c7d443616d</string>
+    <string>b8a2c8d5-0445-43df-9a15-c26b1831789f</string>
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadOrganization</key>
     <string>Company Name</string>
     <key>PayloadIdentifier</key>
-    <string>a1f5d513-82ae-4b5a-a739-64c7d443616d</string>
+    <string>b8a2c8d5-0445-43df-9a15-c26b1831789f</string>
     <key>PayloadDisplayName</key>
-    <string>Enable Scrollbar Visibility</string>
+    <string>Disable Time Machine Disk Requests</string>
     <key>PayloadDescription</key>
     <string/>
     <key>PayloadVersion</key>
@@ -28,26 +28,28 @@
         <key>PayloadDisplayName</key>
         <string>Custom Settings</string>
         <key>PayloadIdentifier</key>
-        <string>MCXToProfile.1b756ac7-510b-4c08-8f1f-96dc68ac4501.alacarte.customsettings.c9d19b0f-99bc-496d-b546-bad65fdff03e</string>
+        <string>MCXToProfile.9f9a0b1f-7b17-4656-92aa-b7046ad88d00.alacarte.customsettings.905bcd92-fe37-4a99-9265-a0a26ff30a41</string>
         <key>PayloadOrganization</key>
         <string>JAMF Software</string>
         <key>PayloadType</key>
         <string>com.apple.ManagedClient.preferences</string>
         <key>PayloadUUID</key>
-        <string>c9d19b0f-99bc-496d-b546-bad65fdff03e</string>
+        <string>905bcd92-fe37-4a99-9265-a0a26ff30a41</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
         <key>PayloadContent</key>
         <dict>
-          <key>.GlobalPreferences</key>
+          <key>com.apple.TimeMachine</key>
           <dict>
             <key>Forced</key>
             <array>
               <dict>
                 <key>mcx_preference_settings</key>
                 <dict>
-                  <key>AppleShowScrollBars</key>
-                  <string>Always</string>
+                  <key>DoNotOfferNewDisksForBackup</key>
+                  <true/>
                 </dict>
               </dict>
             </array>

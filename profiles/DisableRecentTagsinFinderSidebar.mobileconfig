@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>8783AFEB-A680-4BFC-A35B-A2C1DAA4F240</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadOrganization</key>
+    <string>Company Name</string>
+    <key>PayloadIdentifier</key>
+    <string>730F1531-BB17-453C-BE0B-0DB0102FC0A1</string>
+    <key>PayloadDisplayName</key>
+    <string>Disable Recent Tags in Finder Sidebar</string>
+    <key>PayloadDescription</key>
+    <string>Disables Recent Tags in the Finder sidebar</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>9B2550DE-6CDF-4A04-B173-F94B3A597B85</string>
+        <key>PayloadType</key>
+        <string>com.apple.finder</string>
+        <key>PayloadOrganization</key>
+        <string>Company Name</string>
+        <key>PayloadIdentifier</key>
+        <string>com.apple.finder.05AC578E-1788-4A68-8C26-B2230D5A4079</string>
+        <key>PayloadDisplayName</key>
+        <string>Finder</string>
+        <key>PayloadDescription</key>
+        <string/>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>ShowRecentTags</key>
+        <false/>
+        <key>ProhibitBurn</key>
+        <false/>
+      </dict>
+    </array>
+  </dict>
+</plist>

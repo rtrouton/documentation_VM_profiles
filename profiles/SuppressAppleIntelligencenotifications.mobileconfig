@@ -3,15 +3,15 @@
 <plist version="1">
   <dict>
     <key>PayloadUUID</key>
-    <string>a1f5d513-82ae-4b5a-a739-64c7d443616d</string>
+    <string>1B270908-4F78-4ADD-A97D-EEFD21AD3732</string>
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadOrganization</key>
     <string>Company Name</string>
     <key>PayloadIdentifier</key>
-    <string>a1f5d513-82ae-4b5a-a739-64c7d443616d</string>
+    <string>1B270908-4F78-4ADD-A97D-EEFD21AD3732</string>
     <key>PayloadDisplayName</key>
-    <string>Enable Scrollbar Visibility</string>
+    <string>Suppress Apple Intelligence notifications</string>
     <key>PayloadDescription</key>
     <string/>
     <key>PayloadVersion</key>
@@ -19,40 +19,35 @@
     <key>PayloadEnabled</key>
     <true/>
     <key>PayloadRemovalDisallowed</key>
-    <false/>
+    <true/>
     <key>PayloadScope</key>
     <string>System</string>
     <key>PayloadContent</key>
     <array>
       <dict>
         <key>PayloadDisplayName</key>
-        <string>Custom Settings</string>
+        <string>Notifications Payload</string>
         <key>PayloadIdentifier</key>
-        <string>MCXToProfile.1b756ac7-510b-4c08-8f1f-96dc68ac4501.alacarte.customsettings.c9d19b0f-99bc-496d-b546-bad65fdff03e</string>
+        <string>7B5578BC-11E6-45B1-A84F-61708AD47711</string>
         <key>PayloadOrganization</key>
         <string>JAMF Software</string>
         <key>PayloadType</key>
-        <string>com.apple.ManagedClient.preferences</string>
+        <string>com.apple.notificationsettings</string>
         <key>PayloadUUID</key>
-        <string>c9d19b0f-99bc-496d-b546-bad65fdff03e</string>
+        <string>7B5578BC-11E6-45B1-A84F-61708AD47711</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
-        <key>PayloadContent</key>
-        <dict>
-          <key>.GlobalPreferences</key>
+        <key>NotificationSettings</key>
+        <array>
           <dict>
-            <key>Forced</key>
-            <array>
-              <dict>
-                <key>mcx_preference_settings</key>
-                <dict>
-                  <key>AppleShowScrollBars</key>
-                  <string>Always</string>
-                </dict>
-              </dict>
-            </array>
+            <key>BundleIdentifier</key>
+            <string>_SYSTEM_CENTER_:com.apple.followup.alert</string>
+            <key>CriticalAlertEnabled</key>
+            <false/>
+            <key>NotificationsEnabled</key>
+            <false/>
           </dict>
-        </dict>
+        </array>
       </dict>
     </array>
   </dict>

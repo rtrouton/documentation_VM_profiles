@@ -3,23 +3,23 @@
 <plist version="1">
   <dict>
     <key>PayloadUUID</key>
-    <string>a1f5d513-82ae-4b5a-a739-64c7d443616d</string>
+    <string>0264099C-0D83-46F5-AA64-F57E236F2A4D</string>
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadOrganization</key>
     <string>Company Name</string>
     <key>PayloadIdentifier</key>
-    <string>a1f5d513-82ae-4b5a-a739-64c7d443616d</string>
+    <string>0264099C-0D83-46F5-AA64-F57E236F2A4D</string>
     <key>PayloadDisplayName</key>
-    <string>Enable Scrollbar Visibility</string>
+    <string>Disable iCloud Storage Setup Assistant Screen</string>
     <key>PayloadDescription</key>
-    <string/>
+    <string>Disables the Wallpaper screen from appearing on login for new user accounts</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
     <key>PayloadEnabled</key>
     <true/>
     <key>PayloadRemovalDisallowed</key>
-    <false/>
+    <true/>
     <key>PayloadScope</key>
     <string>System</string>
     <key>PayloadContent</key>
@@ -28,26 +28,26 @@
         <key>PayloadDisplayName</key>
         <string>Custom Settings</string>
         <key>PayloadIdentifier</key>
-        <string>MCXToProfile.1b756ac7-510b-4c08-8f1f-96dc68ac4501.alacarte.customsettings.c9d19b0f-99bc-496d-b546-bad65fdff03e</string>
+        <string>8DE4E0B1-31C9-42E2-A350-055FD33785F6</string>
         <key>PayloadOrganization</key>
         <string>JAMF Software</string>
         <key>PayloadType</key>
         <string>com.apple.ManagedClient.preferences</string>
         <key>PayloadUUID</key>
-        <string>c9d19b0f-99bc-496d-b546-bad65fdff03e</string>
+        <string>8DE4E0B1-31C9-42E2-A350-055FD33785F6</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
         <key>PayloadContent</key>
         <dict>
-          <key>.GlobalPreferences</key>
+          <key>com.apple.SetupAssistant.managed</key>
           <dict>
             <key>Forced</key>
             <array>
               <dict>
                 <key>mcx_preference_settings</key>
                 <dict>
-                  <key>AppleShowScrollBars</key>
-                  <string>Always</string>
+                  <key>SkipiCloudStorageSetup</key>
+                  <true/>
                 </dict>
               </dict>
             </array>

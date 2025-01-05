@@ -3,23 +3,23 @@
 <plist version="1">
   <dict>
     <key>PayloadUUID</key>
-    <string>a1f5d513-82ae-4b5a-a739-64c7d443616d</string>
+    <string>e75fd83c-2ab7-4bbd-9aa1-0ce8482019ab</string>
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadOrganization</key>
     <string>Company Name</string>
     <key>PayloadIdentifier</key>
-    <string>a1f5d513-82ae-4b5a-a739-64c7d443616d</string>
+    <string>e75fd83c-2ab7-4bbd-9aa1-0ce8482019ab</string>
     <key>PayloadDisplayName</key>
-    <string>Enable Scrollbar Visibility</string>
+    <string>Disable Screenshot Drop Shadow</string>
     <key>PayloadDescription</key>
-    <string/>
+    <string>Included custom settings:com.apple.screencaptureGit revision: 5aefeaf7eb</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
     <key>PayloadEnabled</key>
     <true/>
     <key>PayloadRemovalDisallowed</key>
-    <false/>
+    <true/>
     <key>PayloadScope</key>
     <string>System</string>
     <key>PayloadContent</key>
@@ -28,26 +28,28 @@
         <key>PayloadDisplayName</key>
         <string>Custom Settings</string>
         <key>PayloadIdentifier</key>
-        <string>MCXToProfile.1b756ac7-510b-4c08-8f1f-96dc68ac4501.alacarte.customsettings.c9d19b0f-99bc-496d-b546-bad65fdff03e</string>
+        <string>MCXToProfile.8fcc43f4-2c7e-45f6-9098-3bf3507e3c52.alacarte.customsettings.d7075ad4-8d0b-4b8a-8038-20c130f92635</string>
         <key>PayloadOrganization</key>
         <string>JAMF Software</string>
         <key>PayloadType</key>
         <string>com.apple.ManagedClient.preferences</string>
         <key>PayloadUUID</key>
-        <string>c9d19b0f-99bc-496d-b546-bad65fdff03e</string>
+        <string>d7075ad4-8d0b-4b8a-8038-20c130f92635</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
         <key>PayloadContent</key>
         <dict>
-          <key>.GlobalPreferences</key>
+          <key>com.apple.screencapture</key>
           <dict>
             <key>Forced</key>
             <array>
               <dict>
                 <key>mcx_preference_settings</key>
                 <dict>
-                  <key>AppleShowScrollBars</key>
-                  <string>Always</string>
+                  <key>disable-shadow</key>
+                  <true/>
                 </dict>
               </dict>
             </array>

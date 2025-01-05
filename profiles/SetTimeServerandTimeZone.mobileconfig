@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>464D787C-CED9-4B01-BE2C-9CD3014F77AA</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadOrganization</key>
+    <string>Company Name</string>
+    <key>PayloadIdentifier</key>
+    <string>com.company.464D787C-CED9-4B01-BE2C-9CD3014F77AA</string>
+    <key>PayloadDisplayName</key>
+    <string>Set Time Server and Time Zone</string>
+    <key>PayloadDescription</key>
+    <string/>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>398DFB56-86D1-4C60-8F20-1E57A8065405</string>
+        <key>PayloadType</key>
+        <string>com.apple.MCX</string>
+        <key>PayloadOrganization</key>
+        <string>Company Name</string>
+        <key>PayloadIdentifier</key>
+        <string>com.apple.MCX.398DFB56-86D1-4C60-8F20-1E57A8065405</string>
+        <key>PayloadDisplayName</key>
+        <string>Energy Saver, FileVault, Time Server, Mobile Accounts and Guest Account</string>
+        <key>PayloadDescription</key>
+        <string/>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>timeServer</key>
+        <string>time.apple.com</string>
+        <key>timeZone</key>
+        <string>America/New_York</string>
+      </dict>
+    </array>
+  </dict>
+</plist>

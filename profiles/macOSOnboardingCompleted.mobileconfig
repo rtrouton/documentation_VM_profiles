@@ -3,15 +3,15 @@
 <plist version="1">
   <dict>
     <key>PayloadUUID</key>
-    <string>a1f5d513-82ae-4b5a-a739-64c7d443616d</string>
+    <string>ba025860-f846-42e6-892d-64e9418edf3f</string>
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadOrganization</key>
     <string>Company Name</string>
     <key>PayloadIdentifier</key>
-    <string>a1f5d513-82ae-4b5a-a739-64c7d443616d</string>
+    <string>ba025860-f846-42e6-892d-64e9418edf3f</string>
     <key>PayloadDisplayName</key>
-    <string>Enable Scrollbar Visibility</string>
+    <string>macOS Onboarding Completed</string>
     <key>PayloadDescription</key>
     <string/>
     <key>PayloadVersion</key>
@@ -19,7 +19,7 @@
     <key>PayloadEnabled</key>
     <true/>
     <key>PayloadRemovalDisallowed</key>
-    <false/>
+    <true/>
     <key>PayloadScope</key>
     <string>System</string>
     <key>PayloadContent</key>
@@ -28,26 +28,26 @@
         <key>PayloadDisplayName</key>
         <string>Custom Settings</string>
         <key>PayloadIdentifier</key>
-        <string>MCXToProfile.1b756ac7-510b-4c08-8f1f-96dc68ac4501.alacarte.customsettings.c9d19b0f-99bc-496d-b546-bad65fdff03e</string>
+        <string>778F5AC9-707B-4277-9D4A-620EFE84F281</string>
         <key>PayloadOrganization</key>
         <string>JAMF Software</string>
         <key>PayloadType</key>
         <string>com.apple.ManagedClient.preferences</string>
         <key>PayloadUUID</key>
-        <string>c9d19b0f-99bc-496d-b546-bad65fdff03e</string>
+        <string>778F5AC9-707B-4277-9D4A-620EFE84F281</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
         <key>PayloadContent</key>
         <dict>
-          <key>.GlobalPreferences</key>
+          <key>com.jamfsoftware.selfservice.mac</key>
           <dict>
             <key>Forced</key>
             <array>
               <dict>
                 <key>mcx_preference_settings</key>
                 <dict>
-                  <key>AppleShowScrollBars</key>
-                  <string>Always</string>
+                  <key>com.jamfsoftware.selfservice.onboardingcomplete</key>
+                  <true/>
                 </dict>
               </dict>
             </array>

@@ -3,15 +3,15 @@
 <plist version="1">
   <dict>
     <key>PayloadUUID</key>
-    <string>a1f5d513-82ae-4b5a-a739-64c7d443616d</string>
+    <string>bb9f724f-7b4b-4a4b-88e9-d1ae3fb53f52</string>
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadOrganization</key>
     <string>Company Name</string>
     <key>PayloadIdentifier</key>
-    <string>a1f5d513-82ae-4b5a-a739-64c7d443616d</string>
+    <string>bb9f724f-7b4b-4a4b-88e9-d1ae3fb53f52</string>
     <key>PayloadDisplayName</key>
-    <string>Enable Scrollbar Visibility</string>
+    <string>Disable Reopen Windows When Logging Back In</string>
     <key>PayloadDescription</key>
     <string/>
     <key>PayloadVersion</key>
@@ -19,7 +19,7 @@
     <key>PayloadEnabled</key>
     <true/>
     <key>PayloadRemovalDisallowed</key>
-    <false/>
+    <true/>
     <key>PayloadScope</key>
     <string>System</string>
     <key>PayloadContent</key>
@@ -28,26 +28,26 @@
         <key>PayloadDisplayName</key>
         <string>Custom Settings</string>
         <key>PayloadIdentifier</key>
-        <string>MCXToProfile.1b756ac7-510b-4c08-8f1f-96dc68ac4501.alacarte.customsettings.c9d19b0f-99bc-496d-b546-bad65fdff03e</string>
+        <string>MCXToProfile.bfe3bda1-78d4-4952-b76a-cc8cb4818ea9.alacarte.customsettings.8d7559d6-30a8-486d-a170-cf76bfcbfbf7</string>
         <key>PayloadOrganization</key>
         <string>JAMF Software</string>
         <key>PayloadType</key>
         <string>com.apple.ManagedClient.preferences</string>
         <key>PayloadUUID</key>
-        <string>c9d19b0f-99bc-496d-b546-bad65fdff03e</string>
+        <string>8d7559d6-30a8-486d-a170-cf76bfcbfbf7</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
         <key>PayloadContent</key>
         <dict>
-          <key>.GlobalPreferences</key>
+          <key>com.apple.loginwindow</key>
           <dict>
-            <key>Forced</key>
+            <key>Set-Once</key>
             <array>
               <dict>
                 <key>mcx_preference_settings</key>
                 <dict>
-                  <key>AppleShowScrollBars</key>
-                  <string>Always</string>
+                  <key>TALLogoutSavesState</key>
+                  <string>0</string>
                 </dict>
               </dict>
             </array>

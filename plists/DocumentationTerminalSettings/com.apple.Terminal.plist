@@ -1,38 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>Default Window Settings</key>
-	<string>Documentation</string>
-	<key>Startup Window Settings</key>
-	<string>Documentation</string>
-	<key>Window Settings</key>
-	<dict>
-		<key>Documentation</key>
-		<dict>
-			<key>Font</key>
-			<data>
-			YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0
-			b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRy
-			b290gAGkCwwVFlUkbnVsbNQNDg8QERITFFZOU1NpemVYTlNmRmxh
-			Z3NWTlNOYW1lViRjbGFzcyNAMgAAAAAAABAQgAKAA1ZNb25hY2/S
-			FxgZGlokY2xhc3NuYW1lWCRjbGFzc2VzVk5TRm9udKIZG1hOU09i
-			amVjdAgRGiQpMjdJTFFTWF5nbnd+hY6QkpSboKu0u74AAAAAAAAB
-			AQAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAxw==
-			</data>
-			<key>FontAntialias</key>
-			<true/>
-			<key>FontWidthSpacing</key>
-			<real>1.004032258064516</real>
-			<key>Linewrap</key>
-			<true/>
-			<key>ProfileCurrentVersion</key>
-			<real>2.0699999999999998</real>
-			<key>name</key>
-			<string>Documentation</string>
-			<key>type</key>
-			<string>Window Settings</string>
-		</dict>
-	</dict>
-</dict>
+  <dict>
+    <key>Default Window Settings</key>
+    <string>Documentation</string>
+    <key>Startup Window Settings</key>
+    <string>Documentation</string>
+    <key>Window Settings</key>
+    <dict>
+      <key>Documentation</key>
+      <dict>
+        <key>Font</key>
+        <data>YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGkCwwVFlUkbnVsbNQNDg8QERITFFZOU1NpemVYTlNmRmxhZ3NWTlNOYW1lViRjbGFzcyNAMgAAAAAAABAQgAKAA1ZNb25hY2/SFxgZGlokY2xhc3NuYW1lWCRjbGFzc2VzVk5TRm9udKIZG1hOU09iamVjdAgRGiQpMjdJTFFTWF5nbnd+hY6QkpSboKu0u74AAAAAAAABAQAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAxw==</data>
+        <key>FontAntialias</key>
+        <true/>
+        <key>FontWidthSpacing</key>
+        <real>1.004032258064516</real>
+        <key>Linewrap</key>
+        <true/>
+        <key>ProfileCurrentVersion</key>
+        <real>2.07</real>
+        <key>name</key>
+        <string>Documentation</string>
+        <key>type</key>
+        <string>Window Settings</string>
+      </dict>
+    </dict>
+  </dict>
 </plist>

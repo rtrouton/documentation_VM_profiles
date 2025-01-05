@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>75c9487d-c921-40f9-9628-da60e698a90a</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadOrganization</key>
+    <string>Company Name</string>
+    <key>PayloadIdentifier</key>
+    <string>75c9487d-c921-40f9-9628-da60e698a90a</string>
+    <key>PayloadDisplayName</key>
+    <string>Finder Sidebar Settings</string>
+    <key>PayloadDescription</key>
+    <string/>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Custom Settings</string>
+        <key>PayloadIdentifier</key>
+        <string>MCXToProfile.65b7e372-7d24-4882-838e-5075e0ad9d4f.alacarte.customsettings.b9c33e5c-bc0c-4421-9467-ca87f9f3ee32</string>
+        <key>PayloadOrganization</key>
+        <string>JAMF Software</string>
+        <key>PayloadType</key>
+        <string>com.apple.ManagedClient.preferences</string>
+        <key>PayloadUUID</key>
+        <string>b9c33e5c-bc0c-4421-9467-ca87f9f3ee32</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadContent</key>
+        <dict>
+          <key>com.apple.sidebarlists</key>
+          <dict>
+            <key>Set-Once</key>
+            <array>
+              <dict>
+                <key>mcx_preference_settings</key>
+                <dict>
+                  <key>networkbrowser</key>
+                  <dict>
+                    <key>Controller</key>
+                    <string>CustomListItems</string>
+                    <key>CustomListItems</key>
+                    <array/>
+                    <key>CustomListProperties</key>
+                    <dict>
+                      <key>com.apple.NetworkBrowser.backToMyMacEnabled</key>
+                      <false/>
+                      <key>com.apple.NetworkBrowser.bonjourEnabled</key>
+                      <false/>
+                      <key>com.apple.NetworkBrowser.connectedEnabled</key>
+                      <true/>
+                    </dict>
+                  </dict>
+                  <key>systemitems</key>
+                  <dict>
+                    <key>ShowEjectables</key>
+                    <true/>
+                    <key>ShowHardDisks</key>
+                    <true/>
+                    <key>ShowRemovable</key>
+                    <true/>
+                    <key>ShowServers</key>
+                    <true/>
+                  </dict>
+                </dict>
+              </dict>
+            </array>
+          </dict>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

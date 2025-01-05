@@ -3,15 +3,15 @@
 <plist version="1">
   <dict>
     <key>PayloadUUID</key>
-    <string>a1f5d513-82ae-4b5a-a739-64c7d443616d</string>
+    <string>b88ce8a3-63a0-4caf-8f2f-4f8ebac2ab48</string>
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadOrganization</key>
     <string>Company Name</string>
     <key>PayloadIdentifier</key>
-    <string>a1f5d513-82ae-4b5a-a739-64c7d443616d</string>
+    <string>b88ce8a3-63a0-4caf-8f2f-4f8ebac2ab48</string>
     <key>PayloadDisplayName</key>
-    <string>Enable Scrollbar Visibility</string>
+    <string>Suppress Login Item Added notifications</string>
     <key>PayloadDescription</key>
     <string/>
     <key>PayloadVersion</key>
@@ -19,40 +19,35 @@
     <key>PayloadEnabled</key>
     <true/>
     <key>PayloadRemovalDisallowed</key>
-    <false/>
+    <true/>
     <key>PayloadScope</key>
     <string>System</string>
     <key>PayloadContent</key>
     <array>
       <dict>
         <key>PayloadDisplayName</key>
-        <string>Custom Settings</string>
+        <string>Notifications Payload</string>
         <key>PayloadIdentifier</key>
-        <string>MCXToProfile.1b756ac7-510b-4c08-8f1f-96dc68ac4501.alacarte.customsettings.c9d19b0f-99bc-496d-b546-bad65fdff03e</string>
+        <string>CC75BB38-93B7-49AE-B202-8EB5D62221B5</string>
         <key>PayloadOrganization</key>
         <string>JAMF Software</string>
         <key>PayloadType</key>
-        <string>com.apple.ManagedClient.preferences</string>
+        <string>com.apple.notificationsettings</string>
         <key>PayloadUUID</key>
-        <string>c9d19b0f-99bc-496d-b546-bad65fdff03e</string>
+        <string>AB3C69D6-8B00-45CB-8B98-E2A53E32EF02</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
-        <key>PayloadContent</key>
-        <dict>
-          <key>.GlobalPreferences</key>
+        <key>NotificationSettings</key>
+        <array>
           <dict>
-            <key>Forced</key>
-            <array>
-              <dict>
-                <key>mcx_preference_settings</key>
-                <dict>
-                  <key>AppleShowScrollBars</key>
-                  <string>Always</string>
-                </dict>
-              </dict>
-            </array>
+            <key>BundleIdentifier</key>
+            <string>com.apple.btmnotificationagent</string>
+            <key>CriticalAlertEnabled</key>
+            <false/>
+            <key>NotificationsEnabled</key>
+            <false/>
           </dict>
-        </dict>
+        </array>
       </dict>
     </array>
   </dict>

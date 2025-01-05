@@ -3,15 +3,15 @@
 <plist version="1">
   <dict>
     <key>PayloadUUID</key>
-    <string>a1f5d513-82ae-4b5a-a739-64c7d443616d</string>
+    <string>d2accca3-9c9f-4784-b632-466e382bfef6</string>
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadOrganization</key>
     <string>Company Name</string>
     <key>PayloadIdentifier</key>
-    <string>a1f5d513-82ae-4b5a-a739-64c7d443616d</string>
+    <string>d2accca3-9c9f-4784-b632-466e382bfef6</string>
     <key>PayloadDisplayName</key>
-    <string>Enable Scrollbar Visibility</string>
+    <string>Finder Settings</string>
     <key>PayloadDescription</key>
     <string/>
     <key>PayloadVersion</key>
@@ -19,7 +19,7 @@
     <key>PayloadEnabled</key>
     <true/>
     <key>PayloadRemovalDisallowed</key>
-    <false/>
+    <true/>
     <key>PayloadScope</key>
     <string>System</string>
     <key>PayloadContent</key>
@@ -28,26 +28,38 @@
         <key>PayloadDisplayName</key>
         <string>Custom Settings</string>
         <key>PayloadIdentifier</key>
-        <string>MCXToProfile.1b756ac7-510b-4c08-8f1f-96dc68ac4501.alacarte.customsettings.c9d19b0f-99bc-496d-b546-bad65fdff03e</string>
+        <string>MCXToProfile.1ef83aac-ca17-4091-8d1e-1edaa32914ad.alacarte.customsettings.3ea5d5d8-58ee-49d3-a096-a82359a4ed09</string>
         <key>PayloadOrganization</key>
         <string>JAMF Software</string>
         <key>PayloadType</key>
         <string>com.apple.ManagedClient.preferences</string>
         <key>PayloadUUID</key>
-        <string>c9d19b0f-99bc-496d-b546-bad65fdff03e</string>
+        <string>3ea5d5d8-58ee-49d3-a096-a82359a4ed09</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
         <key>PayloadContent</key>
         <dict>
-          <key>.GlobalPreferences</key>
+          <key>com.apple.finder</key>
           <dict>
-            <key>Forced</key>
+            <key>Set-Once</key>
             <array>
               <dict>
                 <key>mcx_preference_settings</key>
                 <dict>
-                  <key>AppleShowScrollBars</key>
-                  <string>Always</string>
+                  <key>FXPreferredViewStyle</key>
+                  <string>clmv</string>
+                  <key>NewWindowTarget</key>
+                  <string>PfHm</string>
+                  <key>ShowExternalHardDrivesOnDesktop</key>
+                  <true/>
+                  <key>ShowHardDrivesOnDesktop</key>
+                  <true/>
+                  <key>ShowMountedServersOnDesktop</key>
+                  <true/>
+                  <key>ShowRemovableMediaOnDesktop</key>
+                  <true/>
+                  <key>ShowStatusBar</key>
+                  <true/>
                 </dict>
               </dict>
             </array>

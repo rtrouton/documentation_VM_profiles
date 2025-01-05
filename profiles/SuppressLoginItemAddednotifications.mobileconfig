@@ -3,13 +3,13 @@
 <plist version="1">
   <dict>
     <key>PayloadUUID</key>
-    <string>b88ce8a3-63a0-4caf-8f2f-4f8ebac2ab48</string>
+    <string>0C6D9A1C-C748-4258-9A56-3C0A2889FA89</string>
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadOrganization</key>
     <string>Company Name</string>
     <key>PayloadIdentifier</key>
-    <string>b88ce8a3-63a0-4caf-8f2f-4f8ebac2ab48</string>
+    <string>0C6D9A1C-C748-4258-9A56-3C0A2889FA89</string>
     <key>PayloadDisplayName</key>
     <string>Suppress Login Item Added notifications</string>
     <key>PayloadDescription</key>
@@ -28,9 +28,9 @@
         <key>PayloadDisplayName</key>
         <string>Notifications Payload</string>
         <key>PayloadIdentifier</key>
-        <string>CC75BB38-93B7-49AE-B202-8EB5D62221B5</string>
+        <string>53C99FE1-2965-4E41-8DB7-D6D6ED087F1B</string>
         <key>PayloadOrganization</key>
-        <string>JAMF Software</string>
+        <string>Company Name</string>
         <key>PayloadType</key>
         <string>com.apple.notificationsettings</string>
         <key>PayloadUUID</key>

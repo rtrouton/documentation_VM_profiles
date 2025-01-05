@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>0C6D9A1C-C748-4258-9A56-3C0A2889FA89</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadOrganization</key>
+    <string>Company Name</string>
+    <key>PayloadIdentifier</key>
+    <string>0C6D9A1C-C748-4258-9A56-3C0A2889FA89</string>
+    <key>PayloadDisplayName</key>
+    <string>Suppress Login Item Added notifications</string>
+    <key>PayloadDescription</key>
+    <string/>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Notifications Payload</string>
+        <key>PayloadIdentifier</key>
+        <string>53C99FE1-2965-4E41-8DB7-D6D6ED087F1B</string>
+        <key>PayloadOrganization</key>
+        <string>Company Name</string>
+        <key>PayloadType</key>
+        <string>com.apple.notificationsettings</string>
+        <key>PayloadUUID</key>
+        <string>AB3C69D6-8B00-45CB-8B98-E2A53E32EF02</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>NotificationSettings</key>
+        <array>
+          <dict>
+            <key>BundleIdentifier</key>
+            <string>com.apple.btmnotificationagent</string>
+            <key>CriticalAlertEnabled</key>
+            <false/>
+            <key>NotificationsEnabled</key>
+            <false/>
+          </dict>
+        </array>
+      </dict>
+    </array>
+  </dict>
+</plist>

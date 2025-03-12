@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>A2FD8F4F-0839-44A1-8AA4-8A406F3A1468</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadOrganization</key>
+    <string>Company Name</string>
+    <key>PayloadIdentifier</key>
+    <string>A2FD8F4F-0839-44A1-8AA4-8A406F3A1468</string>
+    <key>PayloadDisplayName</key>
+    <string>Disable Sequoia Setup Assistant Screens</string>
+    <key>PayloadDescription</key>
+    <string>Disables the Setup Assistant screens from appearing on login for new user accounts</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadDisplayName</key>
+        <string>Custom Settings</string>
+        <key>PayloadIdentifier</key>
+        <string>A2EE0E00-525E-448C-8AB3-30B435CF801B</string>
+        <key>PayloadOrganization</key>
+        <string>JAMF Software</string>
+        <key>PayloadType</key>
+        <string>com.apple.ManagedClient.preferences</string>
+        <key>PayloadUUID</key>
+        <string>A2EE0E00-525E-448C-8AB3-30B435CF801B</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadContent</key>
+        <dict>
+          <key>com.apple.SetupAssistant.managed</key>
+          <dict>
+            <key>Forced</key>
+            <array>
+              <dict>
+                <key>mcx_preference_settings</key>
+                <dict>
+                  <key>SkipSetupItems</key>
+                  <array>
+                    <string>Intelligence</string>
+                    <string>SoftwareUpdate</string>
+                    <string>Welcome</string>
+                  </array>
+                </dict>
+              </dict>
+            </array>
+          </dict>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>
